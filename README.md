@@ -27,3 +27,9 @@ $ tsc index.ts
 var hello = "hello";
 console.log(hello);
 ```
+
+- ウォッチし、変更箇所をコンパイルさせる
+
+```
+$ tsc index --watch
+```
